@@ -1,0 +1,50 @@
+# =======================================
+# PHP / Composer Project .gitignore
+# =======================================
+
+# Composer vendor directory (dependencies)
+vendor/
+
+# Composer lock backup files
+composer.lock.bak
+
+# Environment & config
+.env
+.env.*
+!.env.example
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHPStorm project files
+*.iml
+out/
+
+# Logs and temp files
+*.log
+*.cache
+*.tmp
+*.bak
+
+# PHPUnit / test stuff
+.phpunit.result.cache
+
+# Uploads & runtime generated files
+uploads/
+storage/
+cache/
+
+# Backup files
+*~
+*.orig
+
+# =======================================
+# End of file
+# =======================================
