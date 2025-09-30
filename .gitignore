@@ -45,6 +45,10 @@ cache/
 *~
 *.orig
 
+# Ignore everything in uploads folder except .gitkeep
+/uploads/*
+!/uploads/.gitkeep
+
 # =======================================
 # End of file
 # =======================================
